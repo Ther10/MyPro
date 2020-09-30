@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment"
+    android:background="#fafafa"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fafafa"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:title=" 签到"
+        />
+
+    <ImageView
+        android:layout_marginTop="@dimen/_40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/daka"/>
+
+
+    <ImageButton
+        android:id="@+id/toGesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/gesture"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="66dp"
+        android:background="#fafafa"
+        android:minHeight="110dp"
+        android:minWidth="88dp"/>
+
+    <ImageButton
+        android:id="@+id/toFinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/finger"
+        android:layout_marginTop="340dp"
+        android:background="#fafafa"
+        android:layout_marginLeft="266dp"
+        android:minHeight="@dimen/_100dp"
+        android:minWidth="80dp"/>
+
+    <ImageButton
+        android:id="@+id/toMapSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/map"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="166dp"
+        android:background="#fafafa"
+        android:minHeight="@dimen/_100dp"
+        android:minWidth="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前有 1 门课需要打卡，请选择打卡方式! "
+        android:textColor="@color/red_f3323b"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="66dp"
+        android:background="@color/coloryello"
+        />
+</FrameLayout>

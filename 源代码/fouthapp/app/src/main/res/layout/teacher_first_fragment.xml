@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    tools:context=".teacher.FirstFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fafafa"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:title=" 首页"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/mainbg02"
+
+        />
+
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/my_course_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:src="@mipmap/th3"
+            android:background="#fafafa"/>
+
+        <ImageButton
+            android:id="@+id/my_leave_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginStart="50dp"
+            android:background="#fafafa"
+            android:src="@mipmap/th3" />
+
+        <ImageButton
+            android:id="@+id/student_sign_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginStart="50dp"
+            android:background="#fafafa"
+            android:src="@mipmap/th3" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/my_course_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="3dp"
+            android:text="教师课表"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/my_leave_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="3dp"
+            android:text="我要请假"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/student_sign_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="3dp"
+            android:text="学生签到"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/create_gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginStart="165dp"
+        android:background="#fafafa"
+        android:src="@mipmap/th3"
+       />
+    <TextView
+        android:id="@+id/create_gesture_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="5dp"
+        android:text="签到手势"
+        android:textColor="#80000000"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

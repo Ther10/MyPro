@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    tools:context=".FirstFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fafafa"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:title=" 首页"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/mainbg02"
+
+        />
+
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/my_course_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/chaxun"
+            android:background="#fafafa"/>
+
+        <ImageButton
+            android:id="@+id/my_leave_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginStart="50dp"
+            android:background="#fafafa"
+            android:src="@drawable/chaxun" />
+
+        <ImageButton
+            android:id="@+id/my_sign_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginStart="50dp"
+            android:background="#fafafa"
+            android:src="@drawable/chaxun" />
+
+    </GridLayout>
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/my_course_text"
+            android:layout_marginStart="33dp"
+            android:text="我的课表"
+            android:layout_marginTop="3dp"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/my_leave_text"
+            android:layout_marginStart="60dp"
+            android:text="我要请假"
+            android:layout_marginTop="3dp"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/my_sign_text"
+            android:layout_marginStart="60dp"
+            android:text="签到记录"
+            android:layout_marginTop="3dp"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

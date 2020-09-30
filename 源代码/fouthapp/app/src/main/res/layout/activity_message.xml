@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+
+    tools:context=".MessageActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@mipmap/back"
+        />
+    <TextView
+        android:layout_marginTop="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知详情"
+        android:layout_marginLeft="@dimen/_50dp"
+        android:textSize="@dimen/_30dp"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="500dp"
+        android:background="@drawable/linearlayout_line"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通知标题"
+            android:textSize="@dimen/_20dp"
+            />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#3C3B3B"
+           android:layout_marginTop="@dimen/_5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50dp"
+            android:text="    小可爱，你的专业课计算机网络将于5分钟后开始上课，请尽快到达综合楼403教室，并在本app上选择你喜欢的方式进行签到打卡，由于老师今天没有设置手势密码，您当前可选择的签到方式为定位打卡、指纹打卡，你的计算机网络老师已经在教室等你啦!"/>
+
+        <Button
+            android:id="@+id/check_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40dp"
+            android:layout_marginLeft="200dp"
+            android:text="去打卡"
+            />
+    </LinearLayout>
+
+</LinearLayout>

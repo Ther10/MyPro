@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="首页" />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="签到" />
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_baseline_mail_24"
+        android:title="消息" />
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="我的" />
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:title="首页"
+    />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="337dp"
+        android:layout_height="87dp"
+        android:onClick="ToMapSign"
+        android:text="@string/mapSign"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50dp"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="337dp"
+        android:layout_height="87dp"
+        android:onClick="ToGesture"
+        android:text="@string/gesture"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+       />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="337dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:onClick="ToFinger"
+        android:text="@string/finger"
+        android:textSize="50sp" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">慧签</string>
+    <string name="dingwei">定位</string>
+    <string name="room">室内地图</string>
+    <string name="map">地图定位显示</string>
+    <string name="mapSign">定位打卡</string>
+    <string name="gesture">手势打卡</string>
+    <string name="finger">指纹打卡</string>
+
+    <string name="title_gesture">手势打卡</string>
+    <string name="title_pattern_setting">设置手势密码</string>
+    <string name="title_pattern_checking">验证手势密码</string>
+
+    <string name="create_gesture">创建手势密码</string>
+    <string name="login_gesture">验证手势密码</string>
+
+    <!-- Splash activity  -->
+    <string name="splash_activity">SplashActivity</string>
+
+    <!-- Gesture login activity -->
+    <string name="gesture_forget_gesture">忘记手势密码</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">手势密码输入错误</string>
+    <string name="gesture_correct">输入正确</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
+    <string name="create_gesture_default">绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+
+    <!--finger-->
+    <string name="fingerprint_recognition">指纹识别</string>
+    <string name="fingerprint_cancel">取消指纹识别</string>
+    <string name="fingerprint_usepwd">密码验证</string>
+    <string name="biometricprompt_finger_add">请先添加指纹</string>
+    <string name="biometricprompt_finger_add_confirm">确认添加</string>
+    <string name="biometricprompt_finger_hw_unavailable">指纹模块不可用</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_leave2">LeaveActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

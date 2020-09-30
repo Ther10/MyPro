@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangePassActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@mipmap/back"
+        app:title="                 修改密码"
+        app:titleTextColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:background="@drawable/formline"
+        android:layout_margin="@dimen/_20dp"
+        >
+        <EditText
+            android:id="@+id/old_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入旧密码"
+            android:inputType="textPassword"
+            android:background="#00FFFFFF"
+            android:layout_marginLeft="@dimen/_10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:background="@drawable/formline"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        >
+        <EditText
+            android:id="@+id/new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入新密码"
+            android:inputType="textPassword"
+            android:background="#00FFFFFF"
+            android:layout_marginLeft="@dimen/_10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:background="@drawable/formline"
+        android:layout_margin="@dimen/_20dp"
+        >
+
+        <EditText
+            android:id="@+id/re_new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请再次密码确认"
+            android:inputType="textPassword"
+            android:background="#00FFFFFF"
+            android:layout_marginLeft="@dimen/_10dp"
+            />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_change_pass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginRight="66dp"
+        android:text="修改"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginRight="66dp"
+        android:text="重置"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+
+
+</LinearLayout>
